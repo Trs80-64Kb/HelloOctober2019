@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1569987206 source:c:\users\richard\myprograms\myapps\mygithub\hellooctober\main.cpp
+	"Window.h"
+
+1569987923 c:\users\richard\myprograms\myapps\mygithub\hellooctober\include\window.h
+	<iostream>
+	<SDL.h>
+	<SDL_main.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1569987923 source:c:\users\richard\myprograms\myapps\mygithub\hellooctober\src\window.cpp
+	"Window.h"
+
