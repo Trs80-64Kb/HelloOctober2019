@@ -15,6 +15,8 @@ void Window::init()
 {
     window_height = 650; window_width = 1000;
     window = SDL_CreateWindow("HelloOctober", SDL_WINDOWPOS_CENTERED,  SDL_WINDOWPOS_CENTERED, window_width, window_height, SDL_WINDOW_SHOWN );
+
+
     renderer = SDL_CreateRenderer(window, -1, 0);
     isRunning = true;
 }
