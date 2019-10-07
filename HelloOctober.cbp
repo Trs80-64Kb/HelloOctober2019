@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,32 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="images/cauldron.png" />
+		<Unit filename="images/characters/a1.png" />
+		<Unit filename="images/characters/a10.png" />
+		<Unit filename="images/characters/a11.png" />
+		<Unit filename="images/characters/a12.png" />
+		<Unit filename="images/characters/a2.png" />
+		<Unit filename="images/characters/a3.png" />
+		<Unit filename="images/characters/a4.png" />
+		<Unit filename="images/characters/a5.png" />
+		<Unit filename="images/characters/a6.png" />
+		<Unit filename="images/characters/a7.png" />
+		<Unit filename="images/characters/a8.png" />
+		<Unit filename="images/characters/a9.png" />
+		<Unit filename="images/house1.png" />
+		<Unit filename="images/house_2.png" />
+		<Unit filename="images/house_3.png" />
+		<Unit filename="images/house_4.png" />
+		<Unit filename="images/house_5.png" />
+		<Unit filename="images/house_6.png" />
+		<Unit filename="images/mask2.png" />
+		<Unit filename="images/pg1.png" />
+		<Unit filename="include/Sprite.h" />
+		<Unit filename="include/Window.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Sprite.cpp" />
+		<Unit filename="src/Window.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

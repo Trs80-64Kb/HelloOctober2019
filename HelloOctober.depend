@@ -1,14 +1,27 @@
 # depslib dependency file v1.0
-1569988184 source:c:\users\richard\myprograms\myapps\mygithub\hellooctober\main.cpp
+1570402624 source:c:\users\richard\myprograms\myapps\hellooctober\main.cpp
 	"Window.h"
 
-1569987923 c:\users\richard\myprograms\myapps\mygithub\hellooctober\include\window.h
+1570410332 c:\users\richard\myprograms\myapps\hellooctober\include\window.h
+	"Sprite.h"
+
+1569995947 c:\users\richard\myprograms\myapps\hellooctober\include\sprite.h
+	<iostream>
+	<string>
+	<vector>
+	<iostream>
+	<sstream>
+	<string>
 	<iostream>
 	<SDL.h>
 	<SDL_main.h>
 	<SDL_image.h>
 	<SDL_ttf.h>
+	<SDL_timer.h>
 
-1569987923 source:c:\users\richard\myprograms\myapps\mygithub\hellooctober\src\window.cpp
+1569910830 source:c:\users\richard\myprograms\myapps\hellooctober\src\sprite.cpp
+	"Sprite.h"
+
+1570415028 source:c:\users\richard\myprograms\myapps\hellooctober\src\window.cpp
 	"Window.h"
 
